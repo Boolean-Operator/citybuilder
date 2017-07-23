@@ -5,7 +5,12 @@ defmodule LiveStory.Stories.Post do
     field :body, :string
     field :title, :string
     field :plan, :string
-    field :done_so_far, :string
+    field :done_so_far_one, :string
+    field :done_so_far_two, :string
+    field :done_so_far_three, :string
+    field :done_so_far_one_title, :string
+    field :done_so_far_two_title, :string
+    field :done_so_far_three_title, :string
     field :project_pic, :string
     field :published, :boolean, default: true
     field :path, :string, null: false, read_after_writes: true

@@ -117,11 +117,7 @@ https://twitter.com/marco_bf
   <div>	<a href="#close" id="closePostModal" title="Close" class="close">X</a>
     <section class="intro"></section>
 
-    <div class="modal-body">
-      This is a modal.
-
-      It will be used to display individual projects.
-    </div>
+  
   </div>
 </div>
 
