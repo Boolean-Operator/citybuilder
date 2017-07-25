@@ -58,8 +58,13 @@
   </div>
     <div>
     <%= label f, :project_pic, class: "control-label" %>
-    <%= textarea f, :project_pic, class: "form-control form-control-body", placeholder: "Do you have a photo"  %>
+    <%= textarea f, :project_pic, class: "form-control form-control-body", placeholder: "Upload photo (placeholder)"  %>
     <%= error_tag f, :project_pic %>
+  </div>
+   <div>
+    <%= label f, :bitcoin_address, class: "control-label" %>
+    <%= textarea f, :bitcoin_address, class: "form-control form-control-body", placeholder: "Bitcoin Address"  %>
+    <%= error_tag f, :bitcoin_address %>
   </div>
   <div class="form-group">
     <%= checkbox(f, :published) %>

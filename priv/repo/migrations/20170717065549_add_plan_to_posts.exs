@@ -10,6 +10,7 @@ defmodule LiveStory.Repo.Migrations.AddPlanToPosts do
      add :done_so_far_one_title, :string
      add :done_so_far_two_title, :string
      add :done_so_far_three_title, :string
+     add :bitcoin_address, :string
      add :project_pic, :string
      #timestamps
   end

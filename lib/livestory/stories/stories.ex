@@ -407,8 +407,8 @@ defmodule LiveStory.Stories do
 
   defp post_changeset(%Post{} = post, attrs \\ %{}) do
     post
-    |> cast(attrs, [:title, :body, :user_id, :published, :original_post_id, :topic_id, :plan, :done_so_far_one, :done_so_far_two, :done_so_far_three, :project_pic]) 
-    |> validate_required([:title, :body, :user_id, :topic_id, :plan, :done_so_far_one, :done_so_far_two, :done_so_far_three, :project_pic])
+    |> cast(attrs, [:title, :body, :user_id, :published, :original_post_id, :topic_id, :plan, :done_so_far_one, :done_so_far_two, :done_so_far_three, :project_pic, :bitcoin_address]) 
+    |> validate_required([:title, :body, :user_id, :topic_id, :plan, :done_so_far_one, :done_so_far_two, :done_so_far_three, :project_pic, :bitcoin_address])
   end
 
   def comment_changeset(%Comment{} = comment, attrs \\ %{}) do

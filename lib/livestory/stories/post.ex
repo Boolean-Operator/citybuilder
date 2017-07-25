@@ -11,6 +11,7 @@ defmodule LiveStory.Stories.Post do
     field :done_so_far_one_title, :string
     field :done_so_far_two_title, :string
     field :done_so_far_three_title, :string
+    field :bitcoin_address, :string
     field :project_pic, :string
     field :published, :boolean, default: true
     field :path, :string, null: false, read_after_writes: true
