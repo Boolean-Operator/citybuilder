@@ -15,11 +15,11 @@ City-builder helps people **build useful projects** in their neighbourhoods.
 - Longevity research. 
 - ... and anything else we can dream up.
 
-We help people learn fund-raising skills, + build prototypes for low money (10-300USD). We provide guidace with legal red-tape.
+We help people learn fund-raising skills, + build prototypes for low money (10-300USD). We provide guidance with legal red-tape.
 
 This is being run by one experienced coder and one new product manager, so please be patient. We're open to new ways of working, but please keep suggestions simple.
 
-Right now we have upload forms and project display set up on the Elixir side. We've also successfully deployed to production.
+Right now we have uploaded forms and project display set up on the Elixir side. We've also successfully deployed to production.
 
 As this is a fork/re-design of a closed source project, currently the CSS, HTML and JS is way behind the Elixir code. If we clean up the front end, we should have the beginnings of a working app.
 
